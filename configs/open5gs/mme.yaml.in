@@ -1,6 +1,9 @@
 logger:
+  default:
+    timestamp: false
   file:
     path: @localstatedir@/log/open5gs/mme.log
+    timestamp: true
 #  level: info   # fatal|error|warn|info(default)|debug|trace
 
 global:
